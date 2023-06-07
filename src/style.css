@@ -1,0 +1,32 @@
+.hola input{
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #222;
+    outline: none;
+    color: #222;
+    margin-top: 8px;
+    margin: 0px 8px;
+}
+
+.hola input:hover{
+    background-color:#22222266;
+    transition: 200ms;
+}
+
+.hola input:focus{
+    background-color: #22222248;
+}
+
+.hola button{
+    border-radius: 8px;
+    background-color: rgb(52, 97, 173);
+    color: white;
+}
+
+.hola button:hover{
+    background-color: white;
+    color: #222;
+    transition: 200ms;
+
+
+}
