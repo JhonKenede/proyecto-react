@@ -2,37 +2,22 @@ export const cards = [
   {
     image:
       "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg",
-    titulo: "Fender",
+    titulo: "Fender Stratocaster",
     precio: "199€",
     star1: "bi bi-star-fill text-primary",
     star2: "bi bi-star-fill text-primary",
     star3: "bi bi-star-fill text-primary",
-    star4: "bi bi-star-fill",
-    star5: "bi bi-star-fill",
+    star4: "bi bi-star-fill text-primary",
+    star5: "bi bi-star-fill text-primary",
     parrafo:
-      "Some quick example text to build on the card title and make up the",
+      "La guitarra Fender Stratocaster es una guitarra muy versatil para poder tocar diferentes estilos.",
     link: "https://www.thomann.de/es/index.html",
-    nombreLink: "Go to there",
+    nombreLink: "Añadir al carrito",
   },
   {
     image:
-      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg",
-    titulo: "Fender",
-    precio: "199€",
-    star1: "bi bi-star-fill",
-    star2: "bi bi-star-fill",
-    star3: "bi bi-star-fill text-primary",
-    star4: "bi bi-star-fill",
-    star5: "bi bi-star-fill",
-    parrafo:
-      "Some quick example text to build on the card title and make up the",
-    link: "https://www.thomann.de/es/index.html",
-    nombreLink: "Go to there",
-  },
-  {
-    image:
-      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg",
-    titulo: "Fender",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/378249/10744137_800.jpg",
+    titulo: "Gretsch",
     precio: "199€",
     star1: "bi bi-star-fill text-primary",
     star2: "bi bi-star-fill text-primary",
@@ -40,23 +25,38 @@ export const cards = [
     star4: "bi bi-star-fill text-primary",
     star5: "bi bi-star-fill",
     parrafo:
-      "Some quick example text to build on the card title and make up the",
+      "Es una guitarra con un sonido envolvenbte con un sonido oscuro y es ideal para Worship",
     link: "https://www.thomann.de/es/index.html",
-    nombreLink: "Go to there",
+    nombreLink: "Añadir al carrito",
   },
   {
     image:
-      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg",
-    titulo: "Fender",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/439170/13994796_800.jpg",
+    titulo: "Fender Telecaster",
     precio: "199€",
     star1: "bi bi-star-fill text-primary",
     star2: "bi bi-star-fill text-primary",
     star3: "bi bi-star-fill text-primary",
-    star4: "bi bi-star-fill",
+    star4: "bi bi-star-fill text-primary",
     star5: "bi bi-star-fill",
     parrafo:
-      "Some quick example text to build on the card title and make up the",
+      "Su gran sonido es una peculiaridad para algunos, guitarra con muy buenos sonidos.",
     link: "https://www.thomann.de/es/index.html",
-    nombreLink: "Go to there",
+    nombreLink: "Añadir al carrito",
+  },
+  {
+    image:
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/147148/13010524_800.jpg",
+    titulo: "Gibson Les Paul",
+    precio: "199€",
+    star1: "bi bi-star-fill text-primary",
+    star2: "bi bi-star-fill text-primary",
+    star3: "bi bi-star-fill text-primary",
+    star4: "bi bi-star-fill text-primary",
+    star5: "bi bi-star-fill",
+    parrafo:
+      "Con esta guitarra podras obtener un cuerpo muy envolvente para el estilo Rock",
+    link: "https://www.thomann.de/es/index.html",
+    nombreLink: "Añadir al carrito",
   },
 ];

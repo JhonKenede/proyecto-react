@@ -25,20 +25,22 @@ function Productos() {
               <figure className="text-end border border-primary border-2 rounded-4 p-5">
                 <blockquote className="blockquote">
                   <p>
-                    A well-known quote, contained in a blockquote element.A
-                    well-known quote, contained in a blockquote element.
+                    Recomiendo mucho este sitio web para comprar, es un sitio
+                    muy confiable y ademas hay un gran variedad de guitarras
+                    disponibles al momento y con posibilidad de fincanciar al
+                    momento, 100% recomendado
                   </p>
                 </blockquote>
                 <figcaption className="blockquote-footer">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
+                  Someone famous in{" Rockschool "}
+                  <cite title="Source Title">Jhon Kenede</cite>
                 </figcaption>
                 <div className="text-black-50">
                   <i className="bi bi-star-fill text-primary"></i>
                   <i className="bi bi-star-fill text-primary"></i>
                   <i className="bi bi-star-fill text-primary"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill text-primary"></i>
+                  <i className="bi bi-star-fill text-primary"></i>
                 </div>
               </figure>
             </div>

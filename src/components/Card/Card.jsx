@@ -128,7 +128,7 @@ function Card({ cards }) {
     <div className="d-flex justify-content-evenly">
       {cards.map((card, index) => (
         <div key={index} className="card " style={{ width: "18rem" }}>
-          <img src={card.image} className="card-img-top" alt="..." />
+          <img src={card.image} className="card-img-top " alt="..." />
           <div className="card-body">
             <h5 className="card-title">{card.titulo}</h5>
             <h6>{card.precio}</h6>
