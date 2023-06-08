@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
@@ -21,14 +22,14 @@ function NavBar() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link to="/" className="nav-link active" aria-current="page">
                     Inicio
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="productos" className="nav-link">
                     Productos
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a

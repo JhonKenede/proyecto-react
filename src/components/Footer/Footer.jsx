@@ -10,15 +10,19 @@ function Footer() {
             <div className="d-flex w-100 gap-3 mt-5">
               <ul>
                 <li>Centro de ayuda</li>
-                <li>No ayuda</li>
-                <li>Maybe</li>
-                <li>Oky</li>
+                <li>Servicios al consumidor</li>
+                <li>Escribenos</li>
+                <li>Servicio telefonico</li>
               </ul>
               <ul>
-                <li>Centro de ayuda</li>
-                <li>No ayuda</li>
-                <li>Maybe</li>
-                <li>Oky</li>
+                <li>
+                  <a href="/HTML/ploticaprivacidad.html">
+                    Politica de privacidad
+                  </a>
+                </li>
+                <li>Condiciones de compra</li>
+                <li>Opiniones de cliente </li>
+                <li>Aviso de privacidad y cookies</li>
               </ul>
             </div>
           </div>

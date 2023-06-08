@@ -122,6 +122,7 @@
 // }
 
 // export default Card;
+import { Link } from "react-router-dom";
 import "./Card.css";
 function Card({ cards }) {
   return (
@@ -143,6 +144,9 @@ function Card({ cards }) {
             <a href={card.link} className="btn btn-primary">
               {card.nombreLink}
             </a>
+            <Link to="/DetalleProdutos" className="btn btn-primary ">
+              Info
+            </Link>
           </div>
         </div>
       ))}

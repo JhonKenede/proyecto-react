@@ -1,15 +1,11 @@
-import Header from "../../components/Header";
-import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
 import { cards } from "../../components/Card/CArdsDummy";
 
 import Section from "../../components/Section";
-import Footer from "../../components/Footer/Footer";
+
 function Productos() {
   return (
     <>
-      <Header />
-      <NavBar />
       <Card cards={cards} />
       <div>
         <div>
@@ -48,7 +44,6 @@ function Productos() {
         </div>
       </div>
       <Section />
-      <Footer />
     </>
   );
 }
