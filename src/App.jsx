@@ -20,7 +20,6 @@ function App() {
       </Route>
       <Route path="/carrito" element={<CarritoLayout />}>
         <Route index element={<Carrito />} />
-
         <Route path="FormadePago" element={<FormadePago />} />
         <Route path="FinalizarPedido" element={<FinalizarPedido />} />
         <Route path="DetalleProdutos" element={<DetalleProductos />} />

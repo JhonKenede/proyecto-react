@@ -1,62 +1,55 @@
 import { Link } from "react-router-dom";
 function Carrito() {
   return (
-    <>
-      <h4>Mi carrito</h4>
-      <div>
-        <Link to="/productos">Seguir comprando</Link>
+    <div className="container d-flex ">
+      <div className="d-flex flex-column mb-3 border border-primary rounded w-100">
+        <div className="">
+          <h4>Mi carrito</h4>
+          <div className="p-2 ">
+            <img
+              src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/378249/10744137_800.jpg"
+              alt="Gretsch"
+              width="85 px"
+            />
+
+            <p>
+              <span>650.99€</span>
+            </p>
+            <input type="number" name="cantidad" min="1" />
+            <button>Eliminar</button>
+          </div>
+          <div className="p-2">
+            <img
+              src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg"
+              alt="Stratocaster"
+              width="85px"
+            />
+
+            <p>
+              <span>450.99€</span>
+            </p>
+            <input type="number" name="cantidad" min="1" />
+            <button>Eliminar</button>
+          </div>
+          <div className="p-2">
+            <img
+              src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/439170/13994796_800.jpg"
+              alt="Telecasrer"
+              width="85 px"
+            />
+
+            <p>
+              <span>890.99€</span>
+            </p>
+            <input type="number" name="cantidad" min="1" />
+            <button>Eliminar</button>
+          </div>
+          <div className="">
+            <Link to="/productos">Seguir comprando</Link>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="/assets/images/Gretsch.jpeg" alt="Gretsch" width="30 px" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a
-          obcaecati eum distinctio. Illo ea nisi fugit omnis nihil, atque
-          ratione aliquid rem adipisci quae quod, architecto eum fugiat
-          necessitatibus?
-        </p>
-        <p>
-          <span>650.99€</span>
-        </p>
-        <input type="number" name="cantidad" min="1" />
-        <button>Eliminar</button>
-      </div>
-      <div>
-        <img
-          src="/assets/images/Stratocaster.jpeg"
-          alt="Stratocaster"
-          width="30 px"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a
-          obcaecati eum distinctio. Illo ea nisi fugit omnis nihil, atque
-          ratione aliquid rem adipisci quae quod, architecto eum fugiat
-          necessitatibus?
-        </p>
-        <p>
-          <span>450.99€</span>
-        </p>
-        <input type="number" name="cantidad" min="1" />
-        <button>Eliminar</button>
-      </div>
-      <div>
-        <img
-          src="/assets/images/Telecaster.jpeg"
-          alt="Telecasrer"
-          width="30 px"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a
-          obcaecati eum distinctio. Illo ea nisi fugit omnis nihil, atque
-          ratione aliquid rem adipisci quae quod, architecto eum fugiat
-          necessitatibus?
-        </p>
-        <p>
-          <span>890.99€</span>
-        </p>
-        <input type="number" name="cantidad" min="1" />
-        <button>Eliminar</button>
-      </div>
-      <div>
+      <div className="d-flex flex-column mb-3 border border-primary rounded justify-content-center w-100">
         <h3>Resumen del pedido</h3>
         <p>
           Continua con el proceso de la compra para conectar tu Coinbase Wallet
@@ -67,7 +60,7 @@ function Carrito() {
         </p>
         <a href="/HTML/Formadepago.html">Proceder al pago</a>
       </div>
-    </>
+    </div>
   );
 }
 
