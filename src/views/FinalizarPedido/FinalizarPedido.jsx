@@ -22,7 +22,11 @@ function FinalizarPedido() {
       <div>
         <h4>Resumen del pedido</h4>
         <div>
-          <img src="/assets/images/Gretsch.jpeg" alt="Gretsch" width="30 px" />
+          <img
+            src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/378249/10744137_800.jpg"
+            alt="Gretsch"
+            width="85 px"
+          />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a
             obcaecati eum distinctio. Illo ea nisi fugit omnis nihil, atque
@@ -37,9 +41,9 @@ function FinalizarPedido() {
         </div>
         <div>
           <img
-            src="/assets/images/Stratocaster.jpeg"
+            src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154407/12658491_800.jpg"
             alt="Stratocaster"
-            width="30 px"
+            width="85 px"
           />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a
@@ -55,9 +59,9 @@ function FinalizarPedido() {
         </div>
         <div>
           <img
-            src="/assets/images/Telecaster.jpeg"
+            src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/439170/13994796_800.jpg"
             alt="Telecasrer"
-            width="30 px"
+            width="85 px"
           />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a

@@ -1,0 +1,93 @@
+.container-full{
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    margin: 0 160px;
+}
+
+.mistarjetas{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+ }
+
+ .mistarjetas img{
+    margin-top: 16px;
+ }
+
+ .mistarjetas p span{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 8px;
+ }
+
+ .mistarjetas input{
+    border-radius: 6px;
+    outline: none;
+ }
+
+ .mistarjetas button{
+    margin-left: 16px;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 1px grey;
+ }
+
+ .mistarjetas button:hover{
+    color: #FFFDFA;
+    background-color: grey;
+    transition: 200ms
+ }
+ 
+ .micarrito{
+    padding: 16px;
+    margin-left: 150px; 
+ }
+
+ .enlace{
+    display: flex;
+    justify-content: end;
+ }
+
+ .enlace a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: #222;
+    border: 1px solid #222;
+    padding: 16px;
+    border-radius: 8px;
+ }
+
+ .enlace a:hover{
+    color: #FFFDFA;
+    background-color: grey;
+    transition: 200ms;
+ }
+
+ .container-right{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px grey;
+ }
+
+ .container-right a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: #222;
+    border: 1px solid #222;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+ }
+
+ .container-right a:hover{
+    color: #FFFDFA;
+    background-color: grey;
+    transition: 200ms;
+ }

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function NavBarCarrito() {
   return (
-    <div>
+    <div className="d-flex justify-content-end">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container d-flex">
           <div>

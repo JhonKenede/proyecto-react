@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function NavBar() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div className="d-flex justify-content-end">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container d-flex">
           <div>
             <button

@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.header{
+background-image: url("../../../assets/images/simon-weisser-phS37wg8cQg-unsplash.jpg");
+background-size: cover;
+background-position: center;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo h4{
+    color: white;
+    font-size: 32px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.logo img{
+    border-radius: 50px;
+    margin-left: 16px;
+
+}
+
+.clase-input input{
+   background-color: rgba(255, 255, 255, 0.362) ;
+   outline: none;
+   border: none;
+   
+}
+
+.clase-input input:focus{
+    background-color: rgba(255, 255, 255, 0.813) ;
+    outline: none;
+    border: none;
+    
+ }

@@ -144,7 +144,7 @@ function Card({ cards }) {
             <a href={card.link} className="btn btn-primary">
               {card.nombreLink}
             </a>
-            <Link to="/DetalleProdutos" className="btn btn-primary ">
+            <Link to="/DetalleProductos" className="btn btn-primary ">
               Info
             </Link>
           </div>
